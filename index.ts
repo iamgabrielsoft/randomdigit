@@ -1,11 +1,11 @@
-import crypto from "crypto"; 
+import { randomBytes as bytes} from "crypto"; 
 
 
 
 /**
  * @description our random byte here
  */
-const randomBytes = crypto.randomBytes;
+const randomBytes = bytes;
 
 
 type PrimitiveType = "alphanumeric" | "numeric" | "hex" | "binary" | "octal";
