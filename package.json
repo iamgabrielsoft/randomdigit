@@ -1,0 +1,15 @@
+{
+    "name": "randomdigit",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "run": "node random"
+    },
+    "dependencies": {
+        "@types/jest": "^27.0.1",
+        "jest": "29.5.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.8"
+    }
+}

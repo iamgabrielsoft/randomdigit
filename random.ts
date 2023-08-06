@@ -138,7 +138,7 @@ export default class RandomString extends Charset {
     maxByte: number,
     cb: (err: any) => void
   ) {
-    randomBytes(length, (err, buf: Buffer) => {
+    randomBytes(length, (err: any, buf: Buffer) => {
       if (err) {
         cb(err); //wrap the error into a callback to stop it
       }
